@@ -163,9 +163,18 @@
 
 .mj-bench-tier {
 	font-size: 0.62em;
-	color: #999;
+	color: #888;
 	font-weight: bold;
 	line-height: 1;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px 3px;
+	border-radius: 999px;
+	border: 1px solid #555;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	white-space: nowrap;
 }
 
 /* Yield badge - shown when a trade gives more than x1 output */
@@ -228,6 +237,74 @@
     color: #666;
     align-self: start;
     text-align: left;
+}
+
+/* ============================================================
+   TIER TABLE  -  Bench upgrade requirements
+   ============================================================ */
+
+.mj-tier-table {
+	width: 100%;
+	max-width: 580px;
+	border-radius: 8px;
+	overflow: hidden;
+	font-size: 0.9em;
+	border: 1px solid #333;
+}
+
+.mj-tier-header {
+	display: grid;
+	grid-template-columns: 90px 64px 1fr;
+	padding: 6px 12px;
+	color: #666;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	border-bottom: 1px solid #333;
+	background: #0000005e;
+}
+
+.mj-tier-row {
+	display: grid;
+	grid-template-columns: 90px 64px 1fr;
+	align-items: center;
+	padding: 8px 12px;
+	border-bottom: 1px solid #222;
+}
+
+.mj-tier-row:last-child {
+	border-bottom: none;
+}
+
+/* Tier badge - the TIER N pill on the left */
+.mj-tier-badge-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.mj-tier-badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 3px 10px;
+	border-radius: 999px;
+	border: 1px solid #555;
+	color: #999;
+	font-size: 0.75em;
+	font-weight: bold;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+/* Time column */
+.mj-tier-time {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.8em;
+	color: #888;
 }
 
 
