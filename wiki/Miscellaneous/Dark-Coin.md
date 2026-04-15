@@ -11,7 +11,7 @@ draft: false
 
 <em>A coin with a skull engraved into it. It is said that these coins once belonged to an unknown ancient god who desperately wants them all back.</em>
 
-Can be found in [Dungeons of Fear](./dungeon-of-fear).
+Can be found in Dungeons of Fear.
 
 Traded to the [Nameless God](./nameless-god) and [Devil Merchant](./devil-merchant).
 
