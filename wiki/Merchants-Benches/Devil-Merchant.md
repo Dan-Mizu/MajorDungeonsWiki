@@ -9,7 +9,7 @@ draft: false
   <img class="mj-size-medium" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/efa5a92f-3936-4c3c-bea0-4b7bf5b9ce54.png">
 </figure>
 
-The Devil Merchant is a trader that mainly deals with [Devil Cards](./devil-cards). They can only be found wandering the surface plains of Zone 1.
+The Devil Merchant is a trader that mainly deals with [Devil Cards](./devil-card-booster-pack). They can only be found wandering the surface plains of Zone 1.
 
 Their trades restock daily and they also have a random selection of cards they trade for, as well as cards they sell for [Dark Coins](./dark-coin). You can trade Card Scraps for [Booster Packs](./devil-card-booster-pack) or [Dark Coins](./dark-coin) with them as well.
 
@@ -261,7 +261,7 @@ The [Golden Devil Stone Artifact](./artifact-golden-devil-stone) has the curious
     </div>
     <div class="mj-trade-arrow-col">←</div>
     <div class="mj-trade-cell mj-trade-cost">
-      <a class="mj-trade-item" href="./devil-cards">
+      <a class="mj-trade-item" href="./devil-card-booster-pack">
         <img class="mj-trade-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/f5bf8873-02de-4521-a8e5-d9399285d524.png">
         <div class="mj-trade-item-text">
           <span class="mj-trade-name">Devil Card: "Silver Skull"</span>

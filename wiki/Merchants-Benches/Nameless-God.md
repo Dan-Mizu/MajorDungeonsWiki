@@ -586,7 +586,7 @@ Found in every treasure room in every dungeon.
       <span class="mj-bench-in-name">Dark Coin</span>
       <span class="mj-bench-in-qty">x20</span>
     </a>
-    <a class="mj-bench-ingredient" href="./devil-cards">
+    <a class="mj-bench-ingredient" href="./devil-card-booster-pack">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/b64382ed-a501-4f52-a0db-624506cbad46.png">
       <span class="mj-bench-in-name">Devil Card: "Azaroth"</span>
     </a>

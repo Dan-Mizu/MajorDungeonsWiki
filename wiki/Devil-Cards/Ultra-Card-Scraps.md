@@ -29,7 +29,7 @@ Trade to the [Devil Merchant](./devil-merchant) to obtain [Booster Packs](./devi
     <span class="mj-bench-time">⏱ 0.8s</span>
   </div>
   <div class="mj-bench-inputs">
-    <a class="mj-bench-ingredient" href="./devil-cards">
+    <a class="mj-bench-ingredient" href="./devil-card-booster-pack">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e4b22bee-326c-4c52-966c-9fb7155ebb65.png">
       <span class="mj-bench-in-name">Any Ultra Card</span>
     </a>
