@@ -714,3 +714,16 @@
     font-size: 0.75em;
     color: #555;
 }
+
+/* "or" separator between card entries in a pool */
+.mj-pool-or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: 0 6px;
+    color: #444;
+    font-size: 0.68em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
