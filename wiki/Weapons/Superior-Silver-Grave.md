@@ -1,3 +1,9 @@
+---
+title: "Superior Silver Grave"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/81146d05-6bef-42d6-ba8f-85cf3120f9a5.png">
 </figure>

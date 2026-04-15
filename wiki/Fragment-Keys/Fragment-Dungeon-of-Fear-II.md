@@ -1,3 +1,10 @@
+---
+title: "Fragment: Dungeon of Fear II"
+order: 2
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/5459b9a0-3637-49f9-8da3-67bc0cfa4c2b.png">
 </figure>

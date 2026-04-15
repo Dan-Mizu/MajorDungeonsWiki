@@ -1,3 +1,9 @@
+---
+title: "Van Helsing"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/a8b77a6b-952c-4492-a3ee-c89b4c95ae1b.png">
 </figure>

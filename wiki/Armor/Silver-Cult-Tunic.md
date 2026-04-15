@@ -1,3 +1,9 @@
+---
+title: "Silver Cult Tunic"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/04dc8056-20cd-49eb-9ac1-1415d92a5b45.png">
 </figure>

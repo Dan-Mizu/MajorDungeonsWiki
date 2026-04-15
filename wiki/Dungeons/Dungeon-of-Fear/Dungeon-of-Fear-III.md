@@ -1,3 +1,10 @@
+---
+title: "Dungeon of Fear III"
+order: 3
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-large" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/4cba6806-5111-4a08-bb5b-25473c848fe0.png">
 </figure>

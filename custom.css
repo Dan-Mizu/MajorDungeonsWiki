@@ -1,0 +1,462 @@
+/* ✨ Custom styles for Major Dungeons */
+
+/* Example: change heading colors */
+/* .prose h1, .prose h2 {
+  color: oklch(0.7 0.2 250);
+} */
+
+/* Example: custom card background */
+/* .card {
+  background: linear-gradient(135deg, #1e1b4b, #312e81) !important;
+  border-color: #4338ca !important;
+} */
+
+/* Example: custom accent color */
+/* :root {
+  --primary: oklch(0.65 0.25 260);
+  --primary-foreground: oklch(0.98 0 0);
+} */
+
+.mj-figure {
+    margin: 0 1.5em 1em 0;
+}
+
+.mj-figure.left {
+    float: left;
+}
+
+.mj-figure-end {
+    clear: both;
+}
+
+.mj-figure > img {
+    display: block;
+    image-rendering: pixelated;
+}
+
+.mj-size-small {
+    width: 100%;
+    height: 100px;
+}
+
+.mj-size-medium {
+    width: 100%;
+    height: 200px;
+}
+
+.mj-size-large {
+    width: 100%;
+    height: 400px;
+}
+
+/* ============================================================
+   BENCH TABLE  -  Recipes & Acquisition
+   (Mjolnir Furnace, Nameless God, item-page source tables)
+   ============================================================ */
+
+.mj-bench-table {
+	width: 100%;
+	max-width: 620px;
+	border-radius: 8px;
+	overflow: hidden;
+	font-size: 0.9em;
+	border: 1px solid #333;
+}
+
+.mj-bench-header {
+	display: grid;
+	grid-template-columns: 1fr 64px 1fr;
+	padding: 6px 12px;
+	color: #666;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	border-bottom: 1px solid #333;
+	background: #0000005e;
+}
+
+/* Remove double border when a section row immediately follows the table header */
+.mj-bench-header + .mj-bench-section {
+	border-top: none;
+}
+
+/* In-table category divider with optional hash-link */
+.mj-bench-section {
+	padding: 5px 12px;
+	color: #666;
+	font-size: 0.72em;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	border-top: 1px solid #2a2a2a;
+	border-bottom: 1px solid #1a1a1a;
+	background: #ffffff05;
+}
+
+.mj-bench-section-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.mj-bench-section-link:hover {
+	color: #aaa;
+}
+
+.mj-bench-row {
+	display: grid;
+	grid-template-columns: 1fr 64px 1fr;
+	align-items: center;
+	padding: 8px 12px;
+	border-bottom: 1px solid #222;
+	transition: background 0.15s;
+}
+
+.mj-bench-row:hover {
+	background: #ffffff08;
+}
+
+.mj-bench-row:last-child {
+	border-bottom: none;
+}
+
+/* Left cell - output item or source station/trader */
+.mj-bench-output {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	text-decoration: none;
+	color: inherit;
+}
+
+.mj-bench-out-icon {
+	width: 70px;
+	height: 70px;
+	object-fit: contain;
+	image-rendering: pixelated;
+	flex-shrink: 0;
+}
+
+.mj-bench-out-name {
+	color: #ddd;
+	font-size: 0.9em;
+	line-height: 1.2;
+}
+
+/* Centre column - arrow, time, tier, yield */
+.mj-bench-mid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 3px;
+}
+
+.mj-bench-arrow {
+	font-size: 1.3em;
+	color: #555;
+}
+
+.mj-bench-time {
+	font-size: 0.62em;
+	color: #888;
+	line-height: 1;
+}
+
+.mj-bench-tier {
+	font-size: 0.62em;
+	color: #999;
+	font-weight: bold;
+	line-height: 1;
+}
+
+/* Yield badge - shown when a trade gives more than x1 output */
+.mj-bench-yield {
+	font-size: 0.65em;
+	color: #5bc4e8;
+	font-weight: bold;
+	line-height: 1;
+}
+
+/* Right cell - ingredients/cost as a vertical list, one row per item */
+.mj-bench-inputs {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	width: 100%;
+}
+
+.mj-bench-ingredient {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 8px;
+    row-gap: 0;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+
+.mj-bench-in-icon {
+    width: 50px;
+    height: 50px;
+    grid-column: 1;
+    grid-row: 1 / 3;   /* spans name row + qty row */
+    object-fit: contain;
+    image-rendering: pixelated;
+    align-self: center;
+}
+
+.mj-bench-in-name {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 0.82em;
+    color: #bbb;
+    line-height: 1.2;
+    align-self: end;
+}
+
+.mj-bench-in-qty {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 0.82em;
+    font-weight: bold;
+    color: #666;
+    align-self: start;
+    text-align: left;
+}
+
+
+/* ============================================================
+   TRADE TABLE  -  Devil Merchant
+   (Receive | arrow | Cost)
+   ============================================================ */
+
+.mj-trade-table {
+	width: 100%;
+	max-width: 580px;
+	border-radius: 8px;
+	overflow: hidden;
+	font-size: 0.9em;
+	border: 1px solid #333;
+}
+
+.mj-trade-header {
+	display: grid;
+	grid-template-columns: 1fr 30px 1fr;
+	padding: 6px 12px;
+	color: #666;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	border-bottom: 1px solid #333;
+	background: #0000005e;
+}
+
+.mj-trade-header + .mj-trade-section {
+	border-top: none;
+}
+
+.mj-trade-section {
+	padding: 5px 12px;
+	color: #666;
+	font-size: 0.72em;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	border-top: 1px solid #2a2a2a;
+	border-bottom: 1px solid #1a1a1a;
+	background: #ffffff05;
+}
+
+.mj-trade-section-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.mj-trade-section-link:hover {
+	color: #aaa;
+}
+
+.mj-trade-row {
+	display: grid;
+	grid-template-columns: 1fr 30px 1fr;
+	align-items: center;
+	padding: 8px 12px;
+	border-bottom: 1px solid #222;
+	transition: background 0.15s;
+}
+
+.mj-trade-row:hover {
+	background: #ffffff08;
+}
+
+.mj-trade-row:last-child {
+	border-bottom: none;
+}
+
+/* Each side of the trade (receive or cost) */
+.mj-trade-cell {
+	display: flex;
+	align-items: center;
+}
+
+/* Clickable item inside a cell - icon beside text */
+.mj-trade-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	text-decoration: none;
+	color: inherit;
+}
+
+.mj-trade-icon {
+	width: 50px;
+	height: 50px;
+	object-fit: contain;
+	image-rendering: pixelated;
+	flex-shrink: 0;
+}
+
+/* Text block: name stacked above qty */
+.mj-trade-item-text {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.mj-trade-name {
+	color: #ddd;
+	font-size: 0.9em;
+	line-height: 1.2;
+}
+
+.mj-trade-qty {
+	color: #888;
+	font-size: 0.85em;
+	font-weight: bold;
+}
+
+/* Centre column - arrow only (no time/tier for merchant trades) */
+.mj-trade-arrow-col {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #555;
+	font-size: 1.3em;
+}
+
+/* Cost cell modifier - dims the cost item text */
+.mj-trade-cost .mj-trade-name { color: #aaa; }
+.mj-trade-cost .mj-trade-qty  { color: #666; }
+
+
+/* ============================================================
+   LOOT TABLE  -  Treasure Bags & item drop-source tables
+   ============================================================ */
+
+.mj-loot-table {
+	width: 100%;
+	max-width: 580px;
+	border-radius: 8px;
+	overflow: hidden;
+	font-size: 0.9em;
+	border: 1px solid #333;
+}
+
+.mj-loot-header {
+	display: grid;
+	grid-template-columns: 1fr 60px 60px;
+	padding: 6px 12px;
+	color: #666;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	border-bottom: 1px solid #333;
+	background: #0000005e;
+}
+
+/* In-table pool/category divider */
+.mj-loot-section {
+	padding: 5px 12px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1px solid #2a2a2a;
+	border-bottom: 1px solid #1a1a1a;
+	background: #ffffff05;
+}
+
+.mj-loot-section-name {
+	color: #666;
+	font-size: 0.72em;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+}
+
+.mj-loot-row {
+	display: grid;
+	grid-template-columns: 1fr 60px 60px;
+	align-items: center;
+	padding: 8px 12px;
+	border-bottom: 1px solid #222;
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	transition: background 0.15s;
+}
+
+.mj-loot-row:hover {
+	background: #ffffff08;
+}
+
+.mj-loot-row:last-child {
+	border-bottom: none;
+}
+
+.mj-loot-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.mj-loot-icon {
+	width: 50px;
+	height: 50px;
+	object-fit: contain;
+	image-rendering: pixelated;
+	flex-shrink: 0;
+}
+
+.mj-loot-name {
+	color: #ddd;
+	font-size: 0.9em;
+	line-height: 1.2;
+}
+
+.mj-loot-qty {
+	color: #888;
+	font-size: 0.85em;
+	text-align: center;
+}
+
+.mj-loot-chance-wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Base chance pill - always paired with a colour modifier */
+.mj-loot-chance {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px 6px;
+	border-radius: 999px;
+	font-size: 0.78em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.mj-chance-guaranteed { color: #00ccff; border: 1px solid #00ccff; } /* 100%      */
+.mj-chance-high       { color: #23d329; border: 1px solid #23d329; } /* ~50-99%   */
+.mj-chance-med        { color: #c8c840; border: 1px solid #c8c840; } /* ~15-49%   */
+.mj-chance-low        { color: #fbff00; border: 1px solid #fbff00; } /* ~5-14%    */
+.mj-chance-rare       { color: #e91e1e; border: 1px solid #e91e1e; } /* < 5%      */

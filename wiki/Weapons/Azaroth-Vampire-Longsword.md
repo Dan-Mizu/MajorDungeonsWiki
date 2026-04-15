@@ -1,3 +1,9 @@
+---
+title: "Azaroth Vampire Longsword"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/3122db80-44a7-4544-94fe-73471fcbdf11.png">
 </figure>

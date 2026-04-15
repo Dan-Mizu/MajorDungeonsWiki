@@ -1,3 +1,10 @@
+---
+title: "Treasure Bag: Dungeon of Fear I"
+order: 1
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/0058cf81-7d2f-4ef0-bc3e-c4db297fda7e.png" >
 </figure>

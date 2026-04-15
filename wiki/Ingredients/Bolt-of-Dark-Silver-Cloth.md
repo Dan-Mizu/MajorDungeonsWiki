@@ -1,3 +1,9 @@
+---
+title: "Bolt of Dark Silver Cloth"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/96cd9da1-8c6c-428d-94ad-fb253117e8a5.png">
 </figure>

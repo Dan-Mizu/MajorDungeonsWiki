@@ -1,3 +1,9 @@
+---
+title: "Superior Silver Mogruith"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/724e7194-1097-4797-b75e-5d38cb7d5642.png">
 </figure>

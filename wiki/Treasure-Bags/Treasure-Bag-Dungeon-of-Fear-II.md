@@ -1,3 +1,10 @@
+---
+title: "Treasure Bag: Dungeon of Fear II"
+order: 2
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/ca0935ff-9086-48fd-8bd9-1ba4d1792ab7.png" >
 </figure>
@@ -98,9 +105,9 @@ Provided to each player that dealt damage when Katherina is defeated.
     <div class="mj-loot-card-grid">
       <div class="mj-loot-card-entry">
         <span class="mj-loot-card-title">Devil Card: "Katherina Smile"</span>
-        <div class="mj-loot-card-rarity-row"><a href="./devil-cards"><img class="mj-loot-card-img" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/1fdc6967-ef63-4708-b344-091b6a88d62f.png"></a><div class="mj-loot-card-rarity"><span class="mj-rarity-tag mj-rarity-common">Common</span><span class="mj-rarity-pct">3%</span></div></div>
+        <div class="mj-loot-card-rarity-row"><a href="./devil-cards"><img class="mj-loot-card-img" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/1fdc6967-ef63-4708-b344-091b6a88d62f.png"></a><div class="mj-loot-card-rarity"><span class="mj-rarity-tag mj-rarity-common">Common</span><span class="mj-rarity-pct">82%</span></div></div>
         <div class="mj-loot-card-rarity-row"><a href="./devil-cards"><img class="mj-loot-card-img" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/6f5a8df6-62f7-4520-94d1-0981c4d04691.png"></a><div class="mj-loot-card-rarity"><span class="mj-rarity-tag mj-rarity-legendary">Legendary</span><span class="mj-rarity-pct">15%</span></div></div>
-        <div class="mj-loot-card-rarity-row"><a href="./devil-cards"><img class="mj-loot-card-img" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/9ec9d6fd-08a2-47ba-aa4e-c2b500c63041.png"></a><div class="mj-loot-card-rarity"><span class="mj-rarity-tag mj-rarity-ultra">Ultra</span><span class="mj-rarity-pct">82%</span></div></div>
+        <div class="mj-loot-card-rarity-row"><a href="./devil-cards"><img class="mj-loot-card-img" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/9ec9d6fd-08a2-47ba-aa4e-c2b500c63041.png"></a><div class="mj-loot-card-rarity"><span class="mj-rarity-tag mj-rarity-ultra">Ultra</span><span class="mj-rarity-pct">3%</span></div></div>
       </div>
     </div>
   </div>

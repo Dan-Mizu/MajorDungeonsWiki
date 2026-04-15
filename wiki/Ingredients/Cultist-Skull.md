@@ -1,3 +1,9 @@
+---
+title: "Cultist Skull"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/93fb9ee1-ef5f-4bd8-8e06-d8eeb970cc02.png">
 </figure>

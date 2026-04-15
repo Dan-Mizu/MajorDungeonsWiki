@@ -1,3 +1,9 @@
+---
+title: "Dark Silver Ingot"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/ba0e59d7-f25f-46af-a88d-2abaf8a31b1f.png">
 </figure>

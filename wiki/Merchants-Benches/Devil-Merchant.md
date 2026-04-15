@@ -1,3 +1,10 @@
+---
+title: "Devil Merchant"
+order: 2
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-medium" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/efa5a92f-3936-4c3c-bea0-4b7bf5b9ce54.png">
 </figure>

@@ -1,3 +1,11 @@
+---
+title: "Artifact: Golden Devil Stone"
+order: 3
+published: true
+draft: false
+---
+
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/4946f42d-0bd8-4a6f-902d-e244e1789aa4.png">
 </figure>

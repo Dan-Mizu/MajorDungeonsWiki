@@ -1,3 +1,9 @@
+---
+title: "Charged Dark Silver Helmet"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/cc998849-9855-4ed6-af4a-9573bd22cb25.png">
 </figure>

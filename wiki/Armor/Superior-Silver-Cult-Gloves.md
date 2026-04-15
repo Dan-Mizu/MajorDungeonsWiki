@@ -1,3 +1,9 @@
+---
+title: "Superior Silver Cult Gloves"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/aa45de62-c0fc-4626-864c-fb7eb9ce9ec6.png">
 </figure>

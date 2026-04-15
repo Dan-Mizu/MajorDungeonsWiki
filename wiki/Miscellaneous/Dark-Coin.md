@@ -1,3 +1,10 @@
+---
+title: "Dark Coin"
+order: 1
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png" >
 </figure>

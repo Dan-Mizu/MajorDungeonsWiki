@@ -1,3 +1,10 @@
+---
+title: "Artifact: Devil Stone"
+order: 2
+published: true
+draft: false
+---
+
 <div class="mj-figure-end"></div>
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/685f4b18-a455-4587-9e71-611177b3dd91.png">

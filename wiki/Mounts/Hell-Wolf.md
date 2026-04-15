@@ -1,3 +1,9 @@
+---
+title: "Hell Wolf"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/19c88b31-4edc-48e9-bf40-8cd2da6011d1.png">
 </figure>

@@ -1,3 +1,9 @@
+---
+title: "Silver Moon Wolf Spirit"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/91829a6a-f354-447c-a05a-bbab04ffd3e6.png">
 </figure>

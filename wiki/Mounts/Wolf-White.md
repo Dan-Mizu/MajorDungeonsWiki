@@ -1,3 +1,9 @@
+---
+title: "Wolf (White)"
+published: true
+draft: false
+---
+
 <figure class="mj-figure left">
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/f34ffa4f-07f8-4930-90ca-bb6bfa49cefc.png">
 </figure>
