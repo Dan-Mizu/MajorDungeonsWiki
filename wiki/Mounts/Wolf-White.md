@@ -29,7 +29,6 @@ Crafted at the [Mjolnir Furnace](./mjolnir-furnace) from a [Wolf (Black)](./wolf
     <a class="mj-bench-ingredient" href="./wolf-black">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/f34ffa4f-07f8-4930-90ca-bb6bfa49cefc.png">
       <span class="mj-bench-in-name">Wolf (Black)</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="https://hytalewiki.org/w/White_Cloth">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/57ee4de9-2a12-4e40-a668-b7c6afd3f2cd.png">

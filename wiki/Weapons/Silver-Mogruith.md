@@ -30,7 +30,6 @@ An upgraded [Mogruith](./mogruith), traded at the [Nameless God](./nameless-god)
     <a class="mj-bench-ingredient" href="./mogruith">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/4399b6ed-4cda-4c49-bba6-c8949e8132a1.png">
       <span class="mj-bench-in-name">Mogruith</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="./dark-silver-ingot">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/ba0e59d7-f25f-46af-a88d-2abaf8a31b1f.png">

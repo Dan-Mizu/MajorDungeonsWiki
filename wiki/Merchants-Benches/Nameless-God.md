@@ -97,7 +97,6 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./mogruith">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/4399b6ed-4cda-4c49-bba6-c8949e8132a1.png">
       <span class="mj-bench-in-name">Mogruith</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="./dark-silver-ingot">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/ba0e59d7-f25f-46af-a88d-2abaf8a31b1f.png">
@@ -125,7 +124,6 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./silver-mogruith">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/bc8ac538-3c57-4c0c-afbe-81f10f50c847.png">
       <span class="mj-bench-in-name">Silver Mogruith</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="./silver-skull">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/814f4d70-d09c-4263-87a2-a67440ef213b.png">
@@ -176,7 +174,6 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./silver-grave">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/01a6cbec-1b00-457a-9b61-43b96ce95179.png">
       <span class="mj-bench-in-name">Silver Grave</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="./silver-skull">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/814f4d70-d09c-4263-87a2-a67440ef213b.png">
@@ -313,12 +310,10 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./silver-cult-gloves">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/389fa853-f5cc-4354-978b-acb08ef83847.png">
       <span class="mj-bench-in-name">Silver Cult Gloves</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="./silver-skull">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/814f4d70-d09c-4263-87a2-a67440ef213b.png">
       <span class="mj-bench-in-name">Silver Skull</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="./dark-coin">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
@@ -351,7 +346,6 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./silver-skull">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/814f4d70-d09c-4263-87a2-a67440ef213b.png">
       <span class="mj-bench-in-name">Silver Skull</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="./dark-coin">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
@@ -384,7 +378,6 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./silver-skull">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/814f4d70-d09c-4263-87a2-a67440ef213b.png">
       <span class="mj-bench-in-name">Silver Skull</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="./dark-coin">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
@@ -408,7 +401,6 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./dark-coin">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
       <span class="mj-bench-in-name">Dark Coin</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     </div>
   </div>
@@ -461,7 +453,6 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./dark-coin">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
       <span class="mj-bench-in-name">Dark Coin</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     </div>
   </div>
@@ -518,7 +509,6 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./mimics-tongue">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/5374aec5-2226-4b78-97b7-1e44fe36b149.png">
       <span class="mj-bench-in-name">Mimic's Tongue</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     </div>
   </div>
@@ -559,7 +549,6 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./devil-cards">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/b64382ed-a501-4f52-a0db-624506cbad46.png">
       <span class="mj-bench-in-name">Devil Card: "Azaroth"</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     </div>
   </div>
@@ -593,7 +582,6 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./dark-coin">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
       <span class="mj-bench-in-name">Dark Coin</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     </div>
   </div>
@@ -610,7 +598,6 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./dark-coin">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
       <span class="mj-bench-in-name">Dark Coin</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     </div>
   </div>

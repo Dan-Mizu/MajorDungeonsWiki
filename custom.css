@@ -195,6 +195,12 @@
     width: 100%;
 }
 
+/* When an ingredient has no qty, span the name across both rows and centre it */
+.mj-bench-ingredient:not(:has(.mj-bench-in-qty)) .mj-bench-in-name {
+    grid-row: 1 / 3;
+    align-self: center;
+}
+
 .mj-bench-in-icon {
     width: 50px;
     height: 50px;

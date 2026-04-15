@@ -40,12 +40,10 @@ Crafted at the [Mjolnir Furnace](./mjolnir-furnace).
     <a class="mj-bench-ingredient" href="./common-card-scraps">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/0cc6a10f-6392-45fe-84d6-9752379a6099.png">
       <span class="mj-bench-in-name">Devil Card: "Wolf"</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="https://hytalewiki.org/w/Void_Grimoire">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/5c544fa9-3e10-40b9-8d1e-70c65d64408d.png">
       <span class="mj-bench-in-name">Void Grimoire</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
   </div>
 </div>

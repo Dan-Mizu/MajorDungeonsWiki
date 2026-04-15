@@ -31,12 +31,10 @@ Purchased from the [Nameless God](./nameless-god).
     <a class="mj-bench-ingredient" href="./moon-salt">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/a28c9bb8-85bd-4774-a2fc-be692f5619c3.png">
       <span class="mj-bench-in-name">Moon Salt</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="https://hytalewiki.org/w/Silver_Ingot">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/382b5d64-1df4-4bff-a880-8685b3a47279.png">
       <span class="mj-bench-in-name">Silver Ingot</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     </div>
   </div>
@@ -77,7 +75,6 @@ Purchased from the [Nameless God](./nameless-god).
     <a class="mj-bench-ingredient" href="./horse">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/f46ed04f-cb8a-4c61-9076-1d71a6c471ec.png">
       <span class="mj-bench-in-name">Horse</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="https://hytalewiki.org/w/Cobalt_Ingot">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e8c135fe-8531-4268-9d07-0b45c4f785a6.png">
@@ -104,7 +101,6 @@ Purchased from the [Nameless God](./nameless-god).
     <a class="mj-bench-ingredient" href="./horse">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/f46ed04f-cb8a-4c61-9076-1d71a6c471ec.png">
       <span class="mj-bench-in-name">Horse</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="https://hytalewiki.org/w/Iron_Ingot">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/3195a5c8-9493-4eba-a5fb-6835e872acc2.png">
@@ -126,7 +122,6 @@ Purchased from the [Nameless God](./nameless-god).
     <a class="mj-bench-ingredient" href="./wolf-black">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/f34ffa4f-07f8-4930-90ca-bb6bfa49cefc.png">
       <span class="mj-bench-in-name">Wolf (Black)</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="https://hytalewiki.org/w/White_Cloth">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/57ee4de9-2a12-4e40-a668-b7c6afd3f2cd.png">
@@ -221,12 +216,10 @@ Purchased from the [Nameless God](./nameless-god).
     <a class="mj-bench-ingredient" href="./common-card-scraps">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/0cc6a10f-6392-45fe-84d6-9752379a6099.png">
       <span class="mj-bench-in-name">Devil Card: "Wolf"</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="https://hytalewiki.org/w/Void_Grimoire">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/5c544fa9-3e10-40b9-8d1e-70c65d64408d.png">
       <span class="mj-bench-in-name">Void Grimoire</span>
-      <span class="mj-bench-in-qty"></span>
     </a>
     </div>
   </div>
