@@ -30,7 +30,7 @@ An upgraded [Silver Grave](./silver-grave), traded at the [Nameless God](./namel
     <a class="mj-bench-ingredient" href="./silver-grave">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/01a6cbec-1b00-457a-9b61-43b96ce95179.png">
       <span class="mj-bench-in-name">Silver Grave</span>
-      <span class="mj-bench-in-qty">x1</span>
+      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="./silver-skull">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/814f4d70-d09c-4263-87a2-a67440ef213b.png">

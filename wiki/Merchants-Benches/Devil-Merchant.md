@@ -26,7 +26,7 @@ The [Golden Devil Stone Artifact](./artifact-golden-devil-stone) has the curious
 
 <div class="mj-trade-table">
   <div class="mj-trade-header"><span>Receive</span><span></span><span>Cost</span></div>
-  <div class="mj-trade-section" id="trade-cards"><a class="mj-trade-section-link" href="#trade-cards">Cards</a></div>
+  <div class="mj-trade-section" id="cards"><a class="mj-trade-section-link" href="#cards">Cards</a></div>
   <div class="mj-trade-row">
     <div class="mj-trade-cell">
       <a class="mj-trade-item" href="./common-card-scraps">
@@ -167,7 +167,7 @@ The [Golden Devil Stone Artifact](./artifact-golden-devil-stone) has the curious
       </a>
     </div>
   </div>
-  <div class="mj-trade-section" id="trade-booster-packs"><a class="mj-trade-section-link" href="#trade-booster-packs">Booster Packs</a></div>
+  <div class="mj-trade-section" id="booster-packs"><a class="mj-trade-section-link" href="#booster-packs">Booster Packs</a></div>
   <div class="mj-trade-row">
     <div class="mj-trade-cell">
       <a class="mj-trade-item" href="./devil-card-booster-pack">
@@ -249,7 +249,7 @@ The [Golden Devil Stone Artifact](./artifact-golden-devil-stone) has the curious
       </a>
     </div>
   </div>
-  <div class="mj-trade-section" id="trade-miscellaneous"><a class="mj-trade-section-link" href="#trade-miscellaneous">Miscellaneous</a></div>
+  <div class="mj-trade-section" id="miscellaneous"><a class="mj-trade-section-link" href="#miscellaneous">Miscellaneous</a></div>
   <div class="mj-trade-row">
     <div class="mj-trade-cell">
       <a class="mj-trade-item" href="./silver-skull">

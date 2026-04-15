@@ -30,7 +30,7 @@ An upgraded [Silver Mogruith](./silver-mogruith), traded at the [Nameless God](.
     <a class="mj-bench-ingredient" href="./silver-mogruith">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/bc8ac538-3c57-4c0c-afbe-81f10f50c847.png">
       <span class="mj-bench-in-name">Silver Mogruith</span>
-      <span class="mj-bench-in-qty">x1</span>
+      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="./silver-skull">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/814f4d70-d09c-4263-87a2-a67440ef213b.png">

@@ -29,12 +29,12 @@ Crafted at the [Mjolnir Furnace](./mjolnir-furnace).
     <a class="mj-bench-ingredient" href="./moon-salt">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/a28c9bb8-85bd-4774-a2fc-be692f5619c3.png">
       <span class="mj-bench-in-name">Moon Salt</span>
-      <span class="mj-bench-in-qty">x1</span>
+      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="https://hytalewiki.org/w/Silver_Ingot">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/382b5d64-1df4-4bff-a880-8685b3a47279.png">
       <span class="mj-bench-in-name">Silver Ingot</span>
-      <span class="mj-bench-in-qty">x1</span>
+      <span class="mj-bench-in-qty"></span>
     </a>
   </div>
 </div>

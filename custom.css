@@ -171,7 +171,7 @@
 /* Yield badge - shown when a trade gives more than x1 output */
 .mj-bench-yield {
 	font-size: 0.65em;
-	color: #5bc4e8;
+	color: #888;
 	font-weight: bold;
 	line-height: 1;
 }

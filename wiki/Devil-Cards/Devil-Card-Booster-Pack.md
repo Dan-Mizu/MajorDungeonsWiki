@@ -88,7 +88,7 @@ Purchased from the [Nameless God](./nameless-god) or traded at the [Devil Mercha
     <a class="mj-bench-ingredient" href="./ultra-card-scraps">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/a064e414-f841-48f1-8a7c-10d41569cc62.png">
       <span class="mj-bench-in-name">Ultra Card Scraps</span>
-      <span class="mj-bench-in-qty">x1</span>
+      <span class="mj-bench-in-qty"></span>
     </a>
   </div>
 </div>

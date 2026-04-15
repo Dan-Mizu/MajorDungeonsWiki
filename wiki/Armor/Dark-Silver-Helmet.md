@@ -40,7 +40,7 @@ Purchased from the [Nameless God](./nameless-god).
     <a class="mj-bench-ingredient" href="./silver-skull">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/814f4d70-d09c-4263-87a2-a67440ef213b.png">
       <span class="mj-bench-in-name">Silver Skull</span>
-      <span class="mj-bench-in-qty">x1</span>
+      <span class="mj-bench-in-qty"></span>
     </a>
     <a class="mj-bench-ingredient" href="./dark-coin">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
