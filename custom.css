@@ -162,16 +162,16 @@
 }
 
 .mj-bench-tier {
-	font-size: 0.62em;
-	color: #888;
-	font-weight: bold;
-	line-height: 1;
+	margin-top: 5px; 
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	padding: 2px 3px;
+	padding: 0px 5px;
 	border-radius: 999px;
-	border: 1px solid #555;
+	border: 1px solid #888;
+	color: #888;
+	font-size: 0.62em;
+	font-weight: bold;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	white-space: nowrap;
@@ -543,3 +543,174 @@
 .mj-chance-med        { color: #c8c840; border: 1px solid #c8c840; } /* ~15-49%   */
 .mj-chance-low        { color: #fbff00; border: 1px solid #fbff00; } /* ~5-14%    */
 .mj-chance-rare       { color: #e91e1e; border: 1px solid #e91e1e; } /* < 5%      */
+
+/* Pool group header row - uses same 3-col grid as mj-loot-row */
+.mj-loot-group-row {
+    display: grid;
+    grid-template-columns: 1fr 60px 60px;
+    align-items: center;
+    padding: 6px 12px;
+    border-top: 1px solid #2a2a2a;
+    border-bottom: 1px solid #1a1a1a;
+    background: #ffffff05;
+}
+
+/* Pool name + "Item Pool" badge */
+.mj-loot-group-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #888;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.mj-loot-pool-badge {
+    font-size: 0.72em;
+    font-weight: normal;
+    color: #555;
+    border: 1px solid #3a3a3a;
+    padding: 1px 6px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+/* Pool item container - sits below the group row */
+.mj-loot-card-pool {
+    padding: 10px 12px;
+    border-bottom: 1px solid #222;
+    background: #00000018;
+}
+
+.mj-loot-card-pool:last-child {
+    border-bottom: none;
+}
+
+/* "one of the following drops" divider */
+.mj-loot-pool-divider {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.mj-pool-divider-line {
+    flex: 1;
+    height: 1px;
+    background: #2e2e2e;
+    display: block;
+}
+
+.mj-pool-divider-text {
+    color: #4a4a4a;
+    font-size: 0.68em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+}
+
+/* Grid of items inside a pool */
+.mj-loot-card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* Individual pool item - vertical card */
+.mj-pool-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    gap: 3px;
+    width: 72px;
+    margin: 0;
+    padding: 0;
+}
+
+.mj-pool-item-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+.mj-pool-item-name {
+    font-size: 0.65em;
+    color: #bbb;
+    line-height: 1.2;
+}
+
+.mj-pool-item-qty {
+    font-size: 0.65em;
+    color: #666;
+    font-weight: bold;
+}
+
+/* Weighted chance % shown on pool items (e.g. ~94%) */
+.mj-pool-item-pct {
+    font-size: 0.62em;
+    color: #555;
+    font-style: italic;
+}
+
+/* ── Devil Card entries ───────────────────────────────────── */
+
+.mj-loot-card-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mj-loot-card-title {
+    font-size: 0.72em;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.mj-loot-card-rarity-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Portrait card image */
+.mj-loot-card-img {
+    width: 100%;
+    height: 60px;
+    object-fit: contain;
+    image-rendering: pixelated;
+    flex-shrink: 0;
+}
+
+.mj-loot-card-rarity {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Base rarity pill */
+.mj-rarity-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.72em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.mj-rarity-common    { color: #aaa;    border: 1px solid #aaa; }
+.mj-rarity-legendary { color: #d4a017; border: 1px solid #d4a017; }
+.mj-rarity-ultra     { color: #bb2c40; border: 1px solid #bb2c40; }
+
+.mj-rarity-pct {
+    font-size: 0.75em;
+    color: #555;
+}
