@@ -429,7 +429,7 @@ Found in every treasure room in every dungeon.
   <div class="mj-bench-section" id="portals"><a class="mj-bench-section-link" href="#portals">Portals</a></div>
   
   <div class="mj-bench-row">
-    <a class="mj-bench-output" href="./fragment-dungeon-of-fear-ii">
+    <a class="mj-bench-output" href="./fragment-dungeon-of-fear-i-i">
       <img class="mj-bench-out-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/5459b9a0-3637-49f9-8da3-67bc0cfa4c2b.png">
       <span class="mj-bench-out-name">Fragment: Dungeon of Fear II</span>
     </a>
@@ -445,7 +445,7 @@ Found in every treasure room in every dungeon.
     </div>
   </div>
   <div class="mj-bench-row">
-    <a class="mj-bench-output" href="./fragment-dungeon-of-fear-iii">
+    <a class="mj-bench-output" href="./fragment-dungeon-of-fear-i-i-i">
       <img class="mj-bench-out-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/f1a5fe3c-54cb-4fdd-8683-e9d6a6d52a57.png">
       <span class="mj-bench-out-name">Fragment: Dungeon of Fear III</span>
     </a>

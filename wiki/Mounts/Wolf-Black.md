@@ -8,7 +8,7 @@ draft: false
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/f34ffa4f-07f8-4930-90ca-bb6bfa49cefc.png">
 </figure>
 
-Found in [Treasure Bag: Dungeon of Fear 3](./treasure-bag-dungeon-of-fear-iii) and [Treasure Bag: Silver Moon](./treasure-bag-silver-moon).
+Found in [Treasure Bag: Dungeon of Fear 3](./treasure-bag-dungeon-of-fear-i-i-i) and [Treasure Bag: Silver Moon](./treasure-bag-silver-moon).
 
 <div class="mj-figure-end" />
 
@@ -16,7 +16,7 @@ Found in [Treasure Bag: Dungeon of Fear 3](./treasure-bag-dungeon-of-fear-iii) a
 
 <div class="mj-loot-table">
   <div class="mj-loot-header"><span>Source</span><span style="text-align:center">Qty</span><span style="text-align:center">Chance</span></div>
-<a class="mj-loot-row" href="./treasure-bag-dungeon-of-fear-iii">
+<a class="mj-loot-row" href="./treasure-bag-dungeon-of-fear-i-i-i">
   <div class="mj-loot-item">
     <img class="mj-loot-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/41f111fb-5fe1-43b6-94ef-67e2c1eb8282.png">
     <span class="mj-loot-name">Treasure Bag: Dungeon of Fear 3</span>

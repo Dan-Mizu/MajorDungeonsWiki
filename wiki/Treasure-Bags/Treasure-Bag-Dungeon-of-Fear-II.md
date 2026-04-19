@@ -17,7 +17,7 @@ Provided to each player that dealt damage when Katherina is defeated.
 
 <div class="mj-loot-table">
   <div class="mj-loot-header"><span>Item</span><span style="text-align:center">Qty</span><span style="text-align:center">Chance</span></div>
-  <a class="mj-loot-row" href="./fragment-dungeon-of-fear-iii">
+  <a class="mj-loot-row" href="./fragment-dungeon-of-fear-i-i-i">
     <div class="mj-loot-item"><img class="mj-loot-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/f1a5fe3c-54cb-4fdd-8683-e9d6a6d52a57.png"><span class="mj-loot-name">Fragment: Dungeon of Fear III</span></div>
     <span class="mj-loot-qty">1</span>
     <div class="mj-loot-chance-wrap"><span class="mj-loot-chance mj-chance-guaranteed">100%</span></div>

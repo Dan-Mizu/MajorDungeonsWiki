@@ -11,7 +11,7 @@ draft: false
 
 Found in [Treasure Bag: Dungeon of Fear 1](./treasure-bag-dungeon-of-fear-i), received by defeating [Azaroth](./azaroth-dungeon-of-fear-i). Also purchased from the [Nameless God](./nameless-god).
 
-Use on an [Ancient Gateway](https://hytalewiki.org/w/Ancient_Gateway) to summon a portal to the [Dungeon of Fear II](dungeon-of-fear-ii).
+Use on an [Ancient Gateway](https://hytalewiki.org/w/Ancient_Gateway) to summon a portal to the [Dungeon of Fear II](dungeon-of-fear-i-i).
 
 <div class="mj-figure-end" />
 
