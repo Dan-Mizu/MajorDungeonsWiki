@@ -3,6 +3,7 @@ title: "Getting Started"
 order: 1
 published: true
 draft: false
+is_index: true
 ---
 
 [![Major Dungeons Trailer](https://img.youtube.com/vi/gN6I70YUzu8/maxresdefault.jpg)](https://www.youtube.com/watch?v=gN6I70YUzu8)
