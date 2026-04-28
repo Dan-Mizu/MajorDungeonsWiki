@@ -3,7 +3,6 @@ title: "Modder Tutorials"
 order: 13
 published: true
 draft: false
-is_index: true
 ---
 
 # Modder Tutorials
