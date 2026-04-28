@@ -12,7 +12,7 @@ is_index: true
 
 Major Dungeons adds new custom dungeons to the game. These dungeons are instanced and accessible through the Ancient Portal, which unlocks after reaching 100 Memories. In the dungeons, you'll encounter completely new enemies and bosses. As a reward for completing dungeons and killing the final bosses, you'll receive newly added weapons and armor, which drop at certain rates. Inspired by games such as Terraria, The Legend of Zelda, and Skyrim!
 
-The mod is a combination of a framework that adds dungeon and RPG specific features that other modders can use to implement their own dungeons, and an asset pack that implements the content. By making Major Dungeons a dependency, other modders can use features implemented by this mod in their own.
+The mod is a combination of a framework that adds dungeon and RPG specific features that other modders can use to implement their own dungeons, and an asset pack that implements the content. This wiki has some [Modding Tutorials](./modder-tutorials) for those that are interested in implementing these features into their asset pack, requiring zero Java code!
 
 # Installation
 
