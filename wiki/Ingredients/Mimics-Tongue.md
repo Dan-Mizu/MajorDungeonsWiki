@@ -23,7 +23,7 @@ Dropped by the [Mimic](./mimic).
   </div>
   <span class="mj-loot-qty">1</span>
   <div class="mj-loot-chance-wrap">
-    <span class="mj-loot-chance mj-chance-guaranteed">100%</span>
+    <span class="mj-loot-chance mj-chance-low">35%</span>
   </div>
 </a>
 </div>

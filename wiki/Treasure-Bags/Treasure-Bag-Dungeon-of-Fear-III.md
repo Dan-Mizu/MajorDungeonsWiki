@@ -6,7 +6,7 @@ draft: false
 ---
 
 <figure class="mj-figure left">
-  <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/41f111fb-5fe1-43b6-94ef-67e2c1eb8282.png" >
+  <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/ccf41edb-5ef2-4506-92cf-4ef109afff8d.png" >
 </figure>
 
 Provided to each player that dealt damage when Baron is defeated.
@@ -52,8 +52,8 @@ Provided to each player that dealt damage when Baron is defeated.
     <span class="mj-loot-qty">5–8</span>
     <div class="mj-loot-chance-wrap"><span class="mj-loot-chance mj-chance-low">30%</span></div>
   </a>
-  <a class="mj-loot-row" href="./bloodbath">
-    <div class="mj-loot-item"><img class="mj-loot-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/073ee106-df40-4009-842f-b5e3973680f5.png"><span class="mj-loot-name">Bloodbath</span></div>
+  <a class="mj-loot-row" href="./dark-silver-axe">
+    <div class="mj-loot-item"><img class="mj-loot-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/11296bf8-94d3-40d8-be9e-2f88aef5d08f.png"><span class="mj-loot-name">Dark Silver Axe</span></div>
     <span class="mj-loot-qty">1</span>
     <div class="mj-loot-chance-wrap"><span class="mj-loot-chance mj-chance-rare">10%</span></div>
   </a>
@@ -128,17 +128,11 @@ Provided to each player that dealt damage when Baron is defeated.
       <span class="mj-pool-divider-line"></span>
     </div>
     <div class="mj-loot-card-grid">
-      <a class="mj-pool-item" href="./cultist-skull">
-        <img class="mj-pool-item-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/93fb9ee1-ef5f-4bd8-8e06-d8eeb970cc02.png">
-        <span class="mj-pool-item-name">Cultist Skull</span>
-        <span class="mj-pool-item-qty">1–5</span>
-        <span class="mj-pool-item-pct">~2%</span>
-      </a>
       <a class="mj-pool-item" href="https://hytalewiki.org/w/Silver_Ingot">
         <img class="mj-pool-item-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/382b5d64-1df4-4bff-a880-8685b3a47279.png">
         <span class="mj-pool-item-name">Silver Ingot</span>
         <span class="mj-pool-item-qty">1–10</span>
-        <span class="mj-pool-item-pct">~94%</span>
+        <span class="mj-pool-item-pct">~96%</span>
       </a>
       <a class="mj-pool-item" href="./moon-salt">
         <img class="mj-pool-item-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/a28c9bb8-85bd-4774-a2fc-be692f5619c3.png">
@@ -226,7 +220,7 @@ Provided to each player that dealt damage when Baron is defeated.
   <div class="mj-loot-group-row">
     <div class="mj-loot-group-label">Rare Drop<span class="mj-loot-pool-badge">Item Pool</span></div>
     <span class="mj-loot-qty">1</span>
-    <div class="mj-loot-chance-wrap"><span class="mj-loot-chance mj-chance-rare">10%</span></div>
+    <div class="mj-loot-chance-wrap"><span class="mj-loot-chance mj-chance-rare">5%</span></div>
   </div>
   <div class="mj-loot-card-pool">
     <div class="mj-loot-pool-divider">

@@ -6,7 +6,7 @@ draft: false
 ---
 
 <figure class="mj-figure left">
-  <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/0058cf81-7d2f-4ef0-bc3e-c4db297fda7e.png" >
+  <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/f30c9f3d-7dd3-4e96-837c-e86c07c8c3ae.png" >
 </figure>
 
 Provided to each player that dealt damage when Azaroth is defeated.

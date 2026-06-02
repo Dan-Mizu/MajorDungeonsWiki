@@ -28,7 +28,7 @@ Found in the [Treasure Bag: Silver Moon](./treasure-bag-silver-moon).
 </a>
 <a class="mj-loot-row" href="./treasure-bag-dungeon-of-fear-i-i-i">
   <div class="mj-loot-item">
-    <img class="mj-loot-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/41f111fb-5fe1-43b6-94ef-67e2c1eb8282.png">
+    <img class="mj-loot-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/ccf41edb-5ef2-4506-92cf-4ef109afff8d.png">
     <span class="mj-loot-name">Treasure Bag: Dungeon of Fear 3</span>
   </div>
   <span class="mj-loot-qty">1–5</span>

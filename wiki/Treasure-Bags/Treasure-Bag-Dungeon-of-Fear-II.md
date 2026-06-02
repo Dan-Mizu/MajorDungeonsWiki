@@ -6,7 +6,7 @@ draft: false
 ---
 
 <figure class="mj-figure left">
-  <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/ca0935ff-9086-48fd-8bd9-1ba4d1792ab7.png" >
+  <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/0195b4dd-3bb7-4437-bb81-7f005b247562.png" >
 </figure>
 
 Provided to each player that dealt damage when Katherina is defeated.

@@ -27,7 +27,6 @@ Create a file at `Server/Item/Items/Lore/MyMod_Lore_Chapter1.json`:
   "Icon": "Icons/ItemsGenerated/Recipe_Plant_Seeds_Health1.png",
   "Quality": "Rare",
   "PlayerAnimationsId": "Item",
-  "Consumable": true,
   "Interactions": {
     "Secondary": {
       "Interactions": [
@@ -63,22 +62,28 @@ Create a file at `Server/Item/Items/Lore/MyMod_Lore_Chapter1.json`:
 | `ContentKey` | Translation key for the full body text of this chapter |
 | `Next` | The interaction that runs after the lore is discovered. The `ModifyInventory` block here consumes the item |
 
-The `Next` block with `AdjustHeldItemQuantity: -1` consumes the item on first discovery. If you want to keep the item and allow the player to re-read it (without opening the Lore UI), remove the `Next` block, though the Lore UI is the intended reading location.
+The `Next` block with `AdjustHeldItemQuantity: -1` consumes the item on first discovery. If the chapter is already known, the item is not consumed and nothing happens.
 
-## Step 2 - Add Translation Entries
-
-Add your translations to your mod's translation files. The keys used in the item file correspond to entries in your translation JSON:
+If you want a separate item that just opens the Lore UI (without discovering anything), use the `OpenLore` interaction type instead of `DiscoverLore`. This is useful for a "journal" item the player always carries that re-opens their discovered lore at any time:
 
 ```json
 {
-  "MyMod.items.Lore_MyStory_I.name": "The Tale of the Ruins, Part I",
-  "MyMod.lore.series.my_story": "The Tale of the Ruins",
-  "MyMod.lore.my_story.1.title": "Chapter I: The Beginning",
-  "MyMod.lore.my_story.1.content": "Long ago, before the ruins were ruins, there stood a great city..."
+  "Type": "OpenLore"
 }
 ```
 
-The `ContentKey` text is shown as a paragraph in the Lore UI's content panel. You can include newlines in the translation string for paragraph breaks.
+## Step 2 - Add Translation Entries
+
+Add your translations to your mod's `.lang` file at `Server/Languages/en-US/MyMod.lang`. Each line is `key = value`:
+
+```
+MyMod.items.Lore_MyStory_I.name = The Tale of the Ruins, Part I
+MyMod.lore.series.my_story = The Tale of the Ruins
+MyMod.lore.my_story.1.title = Chapter I: The Beginning
+MyMod.lore.my_story.1.content = Long ago, before the ruins were ruins, there stood a great city...
+```
+
+The `ContentKey` text is shown as a paragraph in the Lore UI's content panel. You can include `\n` in the translation value for paragraph breaks.
 
 ## Step 3 - Create Additional Chapters
 
@@ -94,7 +99,6 @@ For chapter 2:
   "Icon": "Icons/ItemsGenerated/Recipe_Plant_Seeds_Health1.png",
   "Quality": "Rare",
   "PlayerAnimationsId": "Item",
-  "Consumable": true,
   "Interactions": {
     "Secondary": {
       "Interactions": [

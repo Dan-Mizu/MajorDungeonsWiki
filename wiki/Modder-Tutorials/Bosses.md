@@ -24,8 +24,8 @@ Create a file at `Server/NPC/Boss/MyBoss.json`:
   "BossBar": {
     "DisplayName": "My Boss",
     "NameColor": "#cc3333",
-    "ShowRadius": 30.0,
-    "HideRadius": 50.0
+    "ShowRadius": 75.0,
+    "HideRadius": 80.0
   },
   "KillRewardDropLists": [
     "MyMod_Drop_MyBoss_Reward"
@@ -36,12 +36,12 @@ Create a file at `Server/NPC/Boss/MyBoss.json`:
 | Field | Description |
 |-------|-------------|
 | `BossBar.DisplayName` | Name shown on the health bar HUD |
-| `BossBar.NameColor` | Hex color for the name text. Defaults to red `#cc3333` |
-| `BossBar.ShowRadius` | Distance in blocks at which the boss bar appears |
-| `BossBar.HideRadius` | Distance in blocks at which the boss bar disappears. Should be larger than `ShowRadius` |
+| `BossBar.NameColor` | Hex color for the name text. Defaults to `#cc3333` |
+| `BossBar.ShowRadius` | Distance in blocks at which the boss bar appears. Defaults to `75` |
+| `BossBar.HideRadius` | Distance in blocks at which the boss bar disappears. Defaults to `80`. Should be larger than `ShowRadius` |
 | `KillRewardDropLists` | Array of drop list IDs. Each list is rolled and the results are given to every player who dealt damage |
 
-The `KillRewardDropLists` is separate from the NPC's regular `DropList`. The regular drop list spawns items on the ground as usual. The kill reward drop lists give items directly to each contributing player's inventory, no matter where they are in the instance as long as they dealt any damage to the boss.
+The `KillRewardDropLists` is separate from the NPC's regular `DropList`. The regular drop list spawns items on the ground as usual. Kill rewards drop at the boss's death position as per-player owned item entities, each contributing player sees and can pick up only their own rewards, other players cannot take them. If you want rewards to go straight into inventory instead, set `BossKillRewardsAsDrops: false` in your [Instance Config](./instance-config) mode modifiers.
 
 ## Step 2 - Create the NPC Role
 
@@ -95,18 +95,43 @@ The kill reward drop list is a standard Hytale drop list asset. Create a file at
 
 ```json
 {
-  "Entries": [
-    {
-      "ItemId": "MyMod_TreasureBag",
-      "Quantity": 1,
-      "Weight": 1,
-      "Guaranteed": true
-    }
-  ]
+  "Container": {
+    "Type": "Single",
+    "Item": { "ItemId": "MyMod_TreasureBag", "QuantityMin": 1, "QuantityMax": 1 }
+  }
 }
 ```
 
-Every player who dealt damage to the boss receives one roll of this drop list. Setting `Guaranteed` to `true` means the item always drops. You can have multiple entries in the list with different weights to create a loot table with varied outcomes.
+Every player who dealt damage to the boss receives one roll of this drop list. For varied outcomes, use a `Choice` container with weighted options:
+
+```json
+{
+  "Container": {
+    "Type": "Choice",
+    "Containers": [
+      { "Type": "Single", "Weight": 80, "Item": { "ItemId": "MyMod_CommonReward", "QuantityMin": 1, "QuantityMax": 1 } },
+      { "Type": "Single", "Weight": 20, "Item": { "ItemId": "MyMod_RareReward", "QuantityMin": 1, "QuantityMax": 1 } },
+      { "Type": "Empty", "Weight": 5 }
+    ]
+  }
+}
+```
+
+`Multiple` at the top level rolls every child, so you can guarantee some items and randomly add others:
+
+```json
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      { "Type": "Single", "Item": { "ItemId": "MyMod_TreasureBag", "QuantityMin": 1, "QuantityMax": 1 } },
+      { "Type": "Choice", "Weight": 20, "Containers": [
+        { "Type": "Single", "Weight": 1, "Item": { "ItemId": "MyMod_RareItem", "QuantityMin": 1, "QuantityMax": 1 } }
+      ]}
+    ]
+  }
+}
+```
 
 ## Step 4 - Place the Boss in the Dungeon
 

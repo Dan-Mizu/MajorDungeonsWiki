@@ -13,7 +13,7 @@ The summoned mount system lets you create items that summon an NPC and mount the
 
 An item uses the `SpawnAndMount` interaction type on its secondary use. When triggered, the framework checks whether the player is already mounted. If not, it validates there is enough clear space to spawn the mount, spawns the NPC, and mounts the player on it. You configure where the NPC spawns relative to the player, where the player sits on the NPC, and which movement config to apply while riding.
 
-Mounts are disabled by default inside instance worlds whose names match `*MJ_Instance*`. This blacklist is configurable in the plugin's `MajorDungeons.json` config file.
+Mounts are disabled by default inside instance worlds whose names match `*Dungeon_Of_Fear*`. This blacklist is configurable in the plugin's `FrameworkConfig.json` config file (located at `mods/DanBagh_DungeonFramework/FrameworkConfig.json` on the server).
 
 ## Step 1 - Create the Mount Item
 
@@ -84,7 +84,7 @@ The mount NPC role is a standard NPC role file. It needs to be non-hostile and n
 ```json
 {
   "Type": "Variant",
-  "Reference": "Template_Mount",
+  "Reference": "Template_MD_Mount",
   "Parameters": {
     "WanderRadius": {
       "Value": 0,
@@ -101,7 +101,7 @@ The mount NPC role is a standard NPC role file. It needs to be non-hostile and n
 }
 ```
 
-The `Appearance` field points to a model definition. You can reuse any of the mount model definitions already included with Major Dungeons (such as `MD_Mount_Wolf_Black`) or define your own. NPC mount behavior is handled by the `Template_Mount` reference template.
+The `Appearance` field points to a model definition. You can reuse any of the mount model definitions already included with Major Dungeons (such as `MD_Mount_Wolf_Black`) or define your own. NPC mount behavior is handled by the `Template_MD_Mount` reference template.
 
 ## How the Toggle Works
 

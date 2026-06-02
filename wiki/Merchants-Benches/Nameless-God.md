@@ -9,7 +9,7 @@ draft: false
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/c4373405-3a8d-4331-8c90-38c77100ae11.png">
 </figure>
 
-From a rift between worlds stretches a hand, black as the void itself. Deeper within the darkness, a hideous visage flickers. It is not wrathful, not hungry. It waits. It awaits the return of what belongs to it— Dark Coins engraved with skulls.
+From a rift between worlds stretches a hand, black as the void itself. Deeper within the darkness, a hideous visage flickers. It is not wrathful, not hungry. It waits. It awaits the return of what belongs to it, Dark Coins engraved with skulls.
 
 Bring these coins, place them in its hand, and you shall receive what you seek. A legendary blade, an artifact of a forgotten age, power… The Nameless God merely takes back what is his. And pays generously for its return.
 
@@ -429,6 +429,22 @@ Found in every treasure room in every dungeon.
   <div class="mj-bench-section" id="portals"><a class="mj-bench-section-link" href="#portals">Portals</a></div>
   
   <div class="mj-bench-row">
+    <a class="mj-bench-output" href="./fragment-dungeon-of-fear-i">
+      <img class="mj-bench-out-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/c25ee6ed-ad6f-4aa3-84d9-43523e3a990c.png">
+      <span class="mj-bench-out-name">Fragment: Dungeon of Fear I</span>
+    </a>
+    <div class="mj-bench-mid">
+      <span class="mj-bench-arrow">←</span>
+    <span class="mj-bench-time">⏱ 1s</span>
+    </div>
+    <div class="mj-bench-inputs">
+    <a class="mj-bench-ingredient" href="./dark-coin">
+      <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
+      <span class="mj-bench-in-name">Dark Coin</span>
+    </a>
+    </div>
+  </div>
+  <div class="mj-bench-row">
     <a class="mj-bench-output" href="./fragment-dungeon-of-fear-i-i">
       <img class="mj-bench-out-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/5459b9a0-3637-49f9-8da3-67bc0cfa4c2b.png">
       <span class="mj-bench-out-name">Fragment: Dungeon of Fear II</span>
@@ -441,6 +457,7 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./dark-coin">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
       <span class="mj-bench-in-name">Dark Coin</span>
+      <span class="mj-bench-in-qty">x2</span>
     </a>
     </div>
   </div>
@@ -458,7 +475,7 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./dark-coin">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
       <span class="mj-bench-in-name">Dark Coin</span>
-      <span class="mj-bench-in-qty">x2</span>
+      <span class="mj-bench-in-qty">x3</span>
     </a>
     </div>
   </div>
@@ -476,7 +493,7 @@ Found in every treasure room in every dungeon.
     <a class="mj-bench-ingredient" href="./dark-coin">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
       <span class="mj-bench-in-name">Dark Coin</span>
-      <span class="mj-bench-in-qty">x3</span>
+      <span class="mj-bench-in-qty">x4</span>
     </a>
     </div>
   </div>

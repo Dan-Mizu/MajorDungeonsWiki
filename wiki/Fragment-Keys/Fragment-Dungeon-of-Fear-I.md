@@ -9,7 +9,7 @@ draft: false
   <img class="mj-size-small" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/c25ee6ed-ad6f-4aa3-84d9-43523e3a990c.png">
 </figure>
 
-Crafted in the [Arcanist's Workbench](https://hytalewiki.org/w/Arcanist%27s_Workbench).
+Crafted in the [Arcanist's Workbench](https://hytalewiki.org/w/Arcanist%27s_Workbench), or purchased from the [Nameless God](./nameless-god).
 
 Use on an [Ancient Gateway](https://hytalewiki.org/w/Ancient_Gateway) to summon a portal to the [Dungeon of Fear I](dungeon-of-fear-i).
 
@@ -48,6 +48,28 @@ Use on an [Ancient Gateway](https://hytalewiki.org/w/Ancient_Gateway) to summon 
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/59340e38-bc2f-4848-8722-b2b01ef7acd5.png">
       <span class="mj-bench-in-name">Cindercloth Scraps</span>
       <span class="mj-bench-in-qty">x5</span>
+    </a>
+  </div>
+</div>
+</div>
+
+### Trade
+
+<div class="mj-bench-table">
+  <div class="mj-bench-header"><span>Source</span><span></span><span>Cost</span></div>
+<div class="mj-bench-row">
+  <a class="mj-bench-output" href="./nameless-god">
+    <img class="mj-bench-out-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/c4373405-3a8d-4331-8c90-38c77100ae11.png">
+    <span class="mj-bench-out-name">Nameless God</span>
+  </a>
+  <div class="mj-bench-mid">
+    <span class="mj-bench-arrow">←</span>
+    <span class="mj-bench-time">⏱ 1s</span>
+  </div>
+  <div class="mj-bench-inputs">
+    <a class="mj-bench-ingredient" href="./dark-coin">
+      <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/e0316524-bd08-489f-91a2-6d1fb363f768.png">
+      <span class="mj-bench-in-name">Dark Coin</span>
     </a>
   </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 title: "Modder Tutorials"
-order: 13
+order: 14
 published: true
 draft: false
 ---
@@ -30,12 +30,15 @@ Each page in this section walks through one feature from scratch, using the bare
 
 [//]: # (- [Basic Dungeon Setup]&#40;./basic-dungeon-setup&#41; - instances, portal types, and portal keys)
 - [Bosses](./bosses) - boss bars and kill rewards
-- [Mimic Blocks](./mimic-blocks) - blocks, like treasure chests, that spawn NPCs when used
-- [Summonable Mounts](./summonable-mounts) - items that summon and mount an NPC
 - [Locked Doors and Keys](./locked-doors-and-keys) - blocks that require a key item to open
 - [Loot Packs](./loot-packs) - items that open and roll drop lists
+- [Summonable Familiars](./familiars) - items that summon cosmetic pets that follow their summoner around
+- [Summonable Mounts](./summonable-mounts) - items that summon and mount an NPC
+- [Mimic Blocks](./mimic-blocks) - blocks, like treasure chests, that spawn NPCs when used
 - [Tabbed Barter Shops](./tabbed-barter-shops) - merchants with multiple tab categories
 - [Mutating Barter Shops](./mutating-barter-shops) - merchants with randomly generated trades on server start
+- [Armor Set Bonuses](./armor-set-bonuses) - status effects (damage boosts, tints, particles) that apply while a specific armor set is worn, optionally gated on time of day and moon phase
+- [Instance Objectives](./instance-objectives) - contract-style "Devil's Deal" objectives that activate when a player enters an instance carrying a specific item
+- [Instance Config](./instance-config) - custom HUD plus difficulty/rule modes (time limit, PvP toggle, mob/boss scaling, drop list and block spawner swaps, death overrides with item loss, server-owner editable values)
 
-[//]: # ([Instance Objectives]&#40;./instance-objectives&#41; - contract-style objectives tied to specific instances)
 [//]: # (- [Lore Pages]&#40;./lore-pages&#41; - items that teach readable lore chapters)

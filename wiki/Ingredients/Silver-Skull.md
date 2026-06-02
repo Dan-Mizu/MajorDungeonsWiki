@@ -66,7 +66,7 @@ Crafted at the [Mjolnir Furnace](./mjolnir-furnace), or traded at the [Devil Mer
   <div class="mj-bench-inputs">
     <a class="mj-bench-ingredient" href="./devil-card-booster-pack">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/f5bf8873-02de-4521-a8e5-d9399285d524.png">
-      <span class="mj-bench-in-name">Devil Card: "Silver Skull"</span>
+      <span class="mj-bench-in-name">Devil Card: "Silver Skull" (Legendary)</span>
     </a>
   </div>
 </div>
@@ -78,12 +78,12 @@ Crafted at the [Mjolnir Furnace](./mjolnir-furnace), or traded at the [Devil Mer
   <div class="mj-loot-header"><span>Source</span><span style="text-align:center">Qty</span><span style="text-align:center">Chance</span></div>
 <a class="mj-loot-row" href="./treasure-bag-dungeon-of-fear-i-i-i">
   <div class="mj-loot-item">
-    <img class="mj-loot-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/41f111fb-5fe1-43b6-94ef-67e2c1eb8282.png">
+    <img class="mj-loot-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/ccf41edb-5ef2-4506-92cf-4ef109afff8d.png">
     <span class="mj-loot-name">Treasure Bag: Dungeon of Fear 3</span>
   </div>
   <span class="mj-loot-qty">1</span>
   <div class="mj-loot-chance-wrap">
-    <span class="mj-loot-chance mj-chance-rare">~1.7%</span>
+    <span class="mj-loot-chance mj-chance-rare">~0.25%</span>
   </div>
 </a>
 <a class="mj-loot-row" href="./treasure-bag-silver-moon">
@@ -93,7 +93,7 @@ Crafted at the [Mjolnir Furnace](./mjolnir-furnace), or traded at the [Devil Mer
   </div>
   <span class="mj-loot-qty">1</span>
   <div class="mj-loot-chance-wrap">
-    <span class="mj-loot-chance mj-chance-rare">~1.7%</span>
+    <span class="mj-loot-chance mj-chance-rare">~0.6%</span>
   </div>
 </a>
 </div>

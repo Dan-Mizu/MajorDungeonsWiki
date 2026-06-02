@@ -52,12 +52,30 @@ Create a file at `Server/BarterShopsTabbed/MyMod_MyMerchant.json`:
 | `ShopId` | The ID of the `BarterShop` asset to display in this tab. Must match the filename without `.json` |
 | `IconTexturePath` | Path to the icon image shown on the tab button. Relative to your asset pack's `Common/UI/` folder |
 | `LabelKey` | Translation key for the tab button label |
+| `CustomLayoutId` | Optional. Overrides the UI layout for this specific tab. Omit for the standard trade layout |
 
 ## Step 3 - Wire It to an NPC
 
-To open the tabbed shop from an NPC, use the `OpenTabbedBarterShop` NPC action in your NPC's dialogue or action chain. The NPC action references the tabbed shop by its asset ID (`MyMod_MyMerchant` in this example).
+To open the tabbed shop from an NPC, use the `OpenTabbedBarterShop` action type in your NPC's interaction instructions. The `Shop` field references the tabbed shop asset by ID:
 
-This is handled through the NPC interaction configuration. In your NPC's role or interaction file, add an action that triggers `OpenTabbedBarterShop` with the shop ID.
+```json
+{
+  "Sensor": { "Type": "HasInteracted" },
+  "Instructions": [
+    {
+      "Sensor": { "Type": "Any" },
+      "Actions": [
+        {
+          "Type": "OpenTabbedBarterShop",
+          "Shop": "MyMod_MyMerchant"
+        }
+      ]
+    }
+  ]
+}
+```
+
+Add this inside your NPC role's `InteractionInstruction` block. See the `Devil_Merchant.json` role in Major Dungeons for a complete wiring example.
 
 ## Adding More Tabs
 

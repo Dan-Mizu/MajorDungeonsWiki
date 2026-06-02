@@ -30,7 +30,7 @@ Purchased from the [Nameless God](./nameless-god).
     <a class="mj-bench-ingredient" href="./dark-silver-ingot">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/ba0e59d7-f25f-46af-a88d-2abaf8a31b1f.png">
       <span class="mj-bench-in-name">Dark Silver Ingot</span>
-      <span class="mj-bench-in-qty">x50</span>
+      <span class="mj-bench-in-qty">x30</span>
     </a>
     <a class="mj-bench-ingredient" href="./bolt-of-dark-silver-cloth">
       <img class="mj-bench-in-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/96cd9da1-8c6c-428d-94ad-fb253117e8a5.png">

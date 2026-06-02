@@ -48,28 +48,49 @@ Create a file at `Server/Item/Block/Spawners/MyMimicChest.json`:
 
 The `EntityId` can be `Mimic_Common` to use the mimic NPC already defined by Major Dungeons, or you can define your own NPC role for a custom mimic variant.
 
+### UseOnceBlock
+
+To make a chest only trigger once (the block cannot be opened a second time after the mimic has been spawned, even if the mimic escapes), add the `UseOnceBlock` component alongside `MimicBlock`:
+
+```json
+{
+  "Entries": [
+    {
+      "Name": "Furniture_Human_Ruins_Chest_Small",
+      "Weight": 100,
+      "Components": {
+        "Components": {
+          "MimicBlock": {
+            "EntityId": "Mimic_Common",
+            "Droplists": ["MyMod_Drop_MimicLoot"]
+          },
+          "UseOnceBlock": {}
+        }
+      }
+    }
+  ]
+}
+```
+
+`UseOnceBlock` is also required on non-mimic chests when used with the `UseBlockOnce` objective task type. See [Instance Objectives](./instance-objectives).
+
 ## Step 2 - Create the Loot Drop List
 
 Create a file at `Server/Drops/MyMod_Drop_MimicLoot.json`:
 
 ```json
 {
-  "Entries": [
-    {
-      "ItemId": "MyMod_SomeTreasureItem",
-      "Quantity": 1,
-      "Weight": 50
-    },
-    {
-      "ItemId": "Ingredient_Bar_Iron",
-      "Quantity": 3,
-      "Weight": 50
-    }
-  ]
+  "Container": {
+    "Type": "Choice",
+    "Containers": [
+      { "Type": "Single", "Weight": 1, "Item": { "ItemId": "MyMod_SomeTreasureItem", "QuantityMin": 1, "QuantityMax": 1 } },
+      { "Type": "Single", "Weight": 1, "Item": { "ItemId": "Ingredient_Bar_Iron", "QuantityMin": 3, "QuantityMax": 3 } }
+    ]
+  }
 }
 ```
 
-The loot is spawned as item drops on the ground at the mimic's position when it dies. You can add as many entries as you want with different weights to control the probability of each item.
+The loot is spawned as item drops on the ground at the mimic's position when it dies. Use `Multiple` at the top level to drop several items at once, or `Choice` to pick one from a weighted list.
 
 ## Step 3 - Place the Mimic in Your Dungeon
 
@@ -79,7 +100,7 @@ You can place multiple different mimic chest spawners across your dungeon, each 
 
 ## Using the Built-in Mimic NPC
 
-If you use `"EntityId": "Mimic_Common"`, the spawned NPC uses the mimic model and behavior already defined by Major Dungeons. No extra setup is needed on your end for that. If you want a custom mimic (different model, health, or combat behavior), you would need to define your own NPC role in a plugin, since NPC roles with custom appearance require Java code or a full model asset.
+If you use `"EntityId": "Mimic_Common"`, the spawned NPC uses the mimic model and behavior already defined by Major Dungeons, no extra setup needed. For a custom mimic (different model, health, or combat behavior), define your own NPC role in your asset pack and reference its id instead.
 
 ## Summary of Files
 

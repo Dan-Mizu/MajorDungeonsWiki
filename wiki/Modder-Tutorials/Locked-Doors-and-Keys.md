@@ -92,7 +92,8 @@ The locked block is what players see and interact with before using a key. Creat
 |-------|-------------|
 | `KeyItemId` | The item ID of the key required to unlock. Must match the filename of your key item (without `.json`) |
 | `UnlockedBlockId` | The block item ID to replace this block with on successful unlock. Must match the filename of your unlocked block |
-| `UnlockSfxId` | Sound event played on successful unlock. `SFX_DoorUnlock_Standard` and `SFX_DoorUnlock_Boss` are included with Major Dungeons |
+| `UnlockSfxId` | Sound event played on successful unlock. Defaults to `SFX_Chest_Legendary_Open`. `SFX_DoorUnlock_Standard` and `SFX_DoorUnlock_Boss` are also included with Major Dungeons |
+| `LockedSfxId` | Sound event played when the player tries to use the block without the correct key. Defaults to `SFX_Drop_Weapons_Shield_Metal` |
 | `UnlockDelayInSeconds` | How many seconds to wait before swapping the block. This gives the unlock animation time to play |
 
 When the player uses this block without the key, they see a notification saying "Block Locked" and the name of the required key. When they use it with the correct key in hand, the key is consumed, the sound plays, and after the configured delay the block is replaced.

@@ -18,12 +18,12 @@ Found in [Treasure Bag: Dungeon of Fear 3](./treasure-bag-dungeon-of-fear-i-i-i)
   <div class="mj-loot-header"><span>Source</span><span style="text-align:center">Qty</span><span style="text-align:center">Chance</span></div>
 <a class="mj-loot-row" href="./treasure-bag-dungeon-of-fear-i-i-i">
   <div class="mj-loot-item">
-    <img class="mj-loot-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/41f111fb-5fe1-43b6-94ef-67e2c1eb8282.png">
+    <img class="mj-loot-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/ccf41edb-5ef2-4506-92cf-4ef109afff8d.png">
     <span class="mj-loot-name">Treasure Bag: Dungeon of Fear 3</span>
   </div>
   <span class="mj-loot-qty">1</span>
   <div class="mj-loot-chance-wrap">
-    <span class="mj-loot-chance mj-chance-rare">~1.7%</span>
+    <span class="mj-loot-chance mj-chance-rare">~0.25%</span>
   </div>
 </a>
 <a class="mj-loot-row" href="./treasure-bag-silver-moon">
@@ -33,7 +33,7 @@ Found in [Treasure Bag: Dungeon of Fear 3](./treasure-bag-dungeon-of-fear-i-i-i)
   </div>
   <span class="mj-loot-qty">1</span>
   <div class="mj-loot-chance-wrap">
-    <span class="mj-loot-chance mj-chance-rare">~1.7%</span>
+    <span class="mj-loot-chance mj-chance-rare">~0.08%</span>
   </div>
 </a>
 </div>

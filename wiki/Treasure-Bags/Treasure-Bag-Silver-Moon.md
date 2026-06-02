@@ -19,7 +19,7 @@ Purchased from the [Nameless God](./nameless-god).
   <div class="mj-loot-header"><span>Item</span><span style="text-align:center">Qty</span><span style="text-align:center">Chance</span></div>
   <a class="mj-loot-row" href="./cultist-skull">
     <div class="mj-loot-item"><img class="mj-loot-icon" src="https://wiki.hytalemodding.dev/storage/mods/019ce934-c60e-7084-9a4e-afbe0c105b00/files/93fb9ee1-ef5f-4bd8-8e06-d8eeb970cc02.png"><span class="mj-loot-name">Cultist Skull</span></div>
-    <span class="mj-loot-qty">1–5</span>
+    <span class="mj-loot-qty">1–2</span>
     <div class="mj-loot-chance-wrap"><span class="mj-loot-chance mj-chance-guaranteed">100%</span></div>
   </a>
   <a class="mj-loot-row" href="./moon-salt">
@@ -55,7 +55,7 @@ Purchased from the [Nameless God](./nameless-god).
   <div class="mj-loot-group-row">
     <div class="mj-loot-group-label">Rare Drop<span class="mj-loot-pool-badge">Item Pool</span></div>
     <span class="mj-loot-qty">1</span>
-    <div class="mj-loot-chance-wrap"><span class="mj-loot-chance mj-chance-rare">10%</span></div>
+    <div class="mj-loot-chance-wrap"><span class="mj-loot-chance mj-chance-rare">3%</span></div>
   </div>
   <div class="mj-loot-card-pool">
     <div class="mj-loot-pool-divider">

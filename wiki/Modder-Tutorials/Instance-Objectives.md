@@ -1,8 +1,8 @@
 ---
 title: "Instance Objectives"
 order: 9
-published: false
-draft: true
+published: true
+draft: false
 ---
 
 # Instance Objectives
@@ -154,16 +154,33 @@ Create a file at `Server/Drops/MyMod_Drop_ObjectiveReward.json`:
 
 ```json
 {
-  "Entries": [
-    {
-      "ItemId": "MyMod_RewardItem",
-      "Quantity": 1,
-      "Weight": 1,
-      "Guaranteed": true
-    }
-  ]
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": { "ItemId": "MyMod_RewardItem", "QuantityMin": 1, "QuantityMax": 1 }
+      },
+      {
+        "Type": "Choice",
+        "Containers": [
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Gold_Coin", "QuantityMin": 5, "QuantityMax": 10 } },
+          { "Type": "Single", "Weight": 1, "Item": { "ItemId": "Rare_Trinket", "QuantityMin": 1, "QuantityMax": 1 } }
+        ]
+      }
+    ]
+  }
 }
 ```
+
+Container types:
+
+| Type | Behavior |
+|------|----------|
+| `Multiple` | Rolls every child container, in order. Use this at the top level when you want a guaranteed item plus some random extras. |
+| `Single` | Drops one item. `QuantityMin` and `QuantityMax` set the quantity range. |
+| `Choice` | Picks one child by weight. Each child must have a `Weight` field. |
+| `Empty` | Drops nothing. Useful as a weighted "no drop" branch inside a `Choice`. |
 
 ## Summary of Files
 
