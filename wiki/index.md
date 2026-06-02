@@ -17,7 +17,6 @@ The mod is a combination of a framework that adds dungeon and RPG specific featu
 # Installation
 
 ## Dependencies
-- If you are running any other mods that add any HUDs to the game, it is required to use the [MultipleHUD](https://www.curseforge.com/hytale/mods/multiplehud) mod to prevent crashes. Otherwise it is not required.
 - The mod is developed while balancing around the [Stunning Combat](https://www.curseforge.com/hytale/mods/stunning-combat) mod. No parry or combat mod is a requirement and you can use any that you'd like, or none at all.
 
 ## Steps
