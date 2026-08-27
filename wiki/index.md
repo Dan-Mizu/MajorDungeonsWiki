@@ -35,7 +35,7 @@ The mod is a combination of a framework that adds dungeon and RPG specific featu
 
 All player data is found in your world folder at `universe/players/{UUID}.json`
 
-The mod specific configuration data is found at `mods/MAJOR76_MajorDungeons/FrameworkConfig.json` and the dungeons can be tweaked in-game using `/majordungeons config` as an operator.
+The mod specific configuration data is found at `mods/MAJOR76_MajorDungeons/FrameworkConfig.json` and the dungeons can be tweaked in-game using `/majordungeons config` as an operator. Per-mode difficulty overrides live alongside it in `mods/MAJOR76_MajorDungeons/InstanceModifiers/`.
 
 # Start
 

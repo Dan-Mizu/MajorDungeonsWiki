@@ -13,6 +13,11 @@ forces every familiar to be **invulnerable** (cannot be killed) and **intangible
 straight through the hitbox). Familiars despawn when their owner leaves the world or dies, and respawn automatically
 when the owner enters another world (instance entry, world transition, reconnect) or revives after death.
 
+Familiars are allowed everywhere by default. Server owners can block them per world through the `FamiliarsWorldBlacklist`
+list in the plugin's `FrameworkConfig.json` (at `mods/MAJOR76_MajorDungeons/FrameworkConfig.json` on the server), or
+from the in-game config page. Entries are world name patterns and support `*` wildcards, for example `*Dungeon_Of_Fear*`.
+A blacklisted world blocks both summoning and the automatic respawn on entry.
+
 ## What You Author
 
 A familiar needs three files, all sharing the familiar's `<id>` for the role and asset:

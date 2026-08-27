@@ -13,7 +13,7 @@ The summoned mount system lets you create items that summon an NPC and mount the
 
 An item uses the `SpawnAndMount` interaction type on its secondary use. When triggered, the framework checks whether the player is already mounted. If not, it validates there is enough clear space to spawn the mount, spawns the NPC, and mounts the player on it. You configure where the NPC spawns relative to the player, where the player sits on the NPC, and which movement config to apply while riding.
 
-Mounts are disabled by default inside instance worlds whose names match `*Dungeon_Of_Fear*`. This blacklist is configurable in the plugin's `FrameworkConfig.json` config file (located at `mods/DanBagh_DungeonFramework/FrameworkConfig.json` on the server).
+Mounts are disabled by default inside instance worlds whose names match `*Dungeon_Of_Fear*`. This blacklist is configurable in the plugin's `FrameworkConfig.json` config file (located at `mods/MAJOR76_MajorDungeons/FrameworkConfig.json` on the server).
 
 ## Step 1 - Create the Mount Item
 

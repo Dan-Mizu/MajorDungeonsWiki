@@ -26,8 +26,6 @@
 
 <p style="text-align: center;"><img src="https://media.forgecdn.net/attachments/description/1440458/description_1c542476-258f-422f-b8d8-c21ab9b4ea78.png" alt="" width="850" height="100%"></p>
 
-<h2 style="text-align: center;"><strong><a href="https://www.curseforge.com/hytale/mods/multiplehud" target="_blank" rel="nofollow noopener">MultipleHUD</a></strong> is required ONLY if you have many mods that add HUDs. You may run into crashes without it. This will be solved in Hytale update 5.</h2>
-
 <h2 style="text-align: center;"><strong><a href="https://www.curseforge.com/hytale/mods/stunning-combat" target="_blank" rel="nofollow noopener">Stunning Combat</a></strong> is highly recommended, but not required. The dungeon and boss difficulty are based around the parrying and stuns implemented by that mod.</h2>
 
 <h2 style="text-align: center;">Visit our <a href="https://discord.gg/Mrqq2azmYd" target="_blank" rel="nofollow noopener">Discord</a> and <a href="https://wiki.hytalemodding.dev/mod/major-dungeons/getting-started" target="_blank" rel="nofollow noopener">Wiki</a> for more informaton and support! We are constantly working on the mod and adding more content.</h2>
